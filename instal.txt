@@ -1,6 +1,0 @@
-Alpha_V1.0
-
-Add_files :
-- textures/background.jpg
-- readme.txt
-- license.txt
