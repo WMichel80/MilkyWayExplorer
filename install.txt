@@ -1,6 +1,7 @@
 Alpha_V1.0
 
 Add_files :
+- launcher
 - textures/launcher_background.jpg
 - readme.txt
 - license.txt
