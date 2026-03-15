@@ -2,5 +2,6 @@ Alpha_V1.0
 
 Add_files :
 - textures/launcher_background.jpg
+- MilkyWayExplorer
 - readme.txt
 - license.txt
