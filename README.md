@@ -34,6 +34,27 @@ Le jeu est conçu pour être entièrement moddable et accessible aux créateurs 
     API Lua (SOL2) : Pour scripter vos propres mécaniques et mods.
     Éditeur Voxel Art : Un outil est en cours de développement pour faciliter la création de contenu (assets, décors, etc.).
 
+📦 Alpha V1.0 (Technical Test)
+
+Cette première version est une version technique destinée à valider les infrastructures du jeu. Elle ne contient pas encore le gameplay final, mais permet de tester les fondations du projet.
+Objectifs de cette version :
+
+    🖥 Test du Launcher – Vérification du bon fonctionnement de l'interface de lancement.
+    ⬇️ Installation & Mises à jour – Test du processus d'installation et du système de mise à jour automatique (Launcher + Jeu).
+    💬 Test de la console de chat – Validation de la communication réseau.
+
+Fichiers disponibles :
+
+    launcher (Linux)
+    launcher.exe (Windows)
+
+⚠️ Comment tester le Chat ?
+
+Le système de chat est opérationnel, mais il nécessite une manipulation spécifique pour être testé en local :
+
+    Lancez le launcher une première fois en mode Serveur.
+    Lancez le launcher une deuxième fois en mode Client.
+
 🚧 Statut du projet
 
 Le projet est en développement actif. Une version Alpha pour les premiers tests arrive bientôt.
