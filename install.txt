@@ -3,6 +3,7 @@ Alpha_V1.0
 Add_files :
 - textures/launcher_background.jpg
 - MilkyWayExplorer
+- MilkyWayExplorer.exe
 - Config/chat_banned_words.cfg
 - readme.txt
 - license.txt
