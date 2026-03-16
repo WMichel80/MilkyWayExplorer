@@ -1,0 +1,20 @@
+Copyright (c) 2024 Michel Weniger
+
+Tous droits réservés.
+
+Ce logiciel et ses actifs associés (ci-après "le Logiciel") sont fournis sous forme compilée.
+Le code source n'est pas public.
+
+1. ACCORD DE LICENCE
+Michel Weniger vous accorde une licence non exclusive, révocable et non transférable pour télécharger, installer et utiliser le Logiciel à des fins strictement personnelles et non commerciales.
+
+2. RESTRICTIONS
+Vous vous engagez à ne pas :
+   a) Copier, revendre, louer ou redistribuer le Logiciel ou toute partie de celui-ci.
+   b) Décompiler, désassembler ou tenter de retrouver le code source du Logiciel, sauf dans la mesure où cela est expressément autorisé par la loi applicable (par exemple pour l'interopérabilité des mods via l'API Lua officielle).
+   c) Utiliser les assets (images, modèles 3D, sons, musiques) du Logiciel dans d'autres projets sans autorisation écrite préalable.
+
+3. PROPRIÉTÉ
+Le Logiciel est protégé par les lois sur le droit d'auteur. Michel Weniger conserve tous les droits de propriété intellectuelle.
+
+LE LOGICIEL EST FOURNI "EN L'ÉTAT", SANS AUCUNE GARANTIE.
