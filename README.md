@@ -1,6 +1,6 @@
 🚀 MilkyWayExplorer
 
-Open-Source Sandbox MMORPG (Cross-Platform: Linux / Windows)
+Sandbox MMORPG (Cross-Platform: Linux / Windows)
 
 Salut ! Je travaille actuellement sur MilkyWayExplorer, un MMORPG sandbox cross-platform inspiré par World of Warcraft, Minecraft et Boundless. Le jeu utilise un moteur 3D entièrement développé en C++.
 🎮 Features
