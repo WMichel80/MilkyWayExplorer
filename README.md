@@ -46,5 +46,3 @@ Je recherche des personnes intéressées pour contribuer au projet. Si vous avez
     🔊 Sound Design
     🎨 Voxel Art
     💡 Idées de Gameplay
-
-Stay tuned pour plus d'infos et l'ouverture du repo GitHub !
