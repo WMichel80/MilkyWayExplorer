@@ -37,6 +37,7 @@ Le jeu est conçu pour être entièrement moddable et accessible aux créateurs 
 🚧 Statut du projet
 
 Le projet est en développement actif. Une version Alpha pour les premiers tests arrive bientôt.
+
 🤝 Contribuer
 
 Je recherche des personnes intéressées pour contribuer au projet. Si vous avez des compétences dans les domaines suivants, contactez-moi :
