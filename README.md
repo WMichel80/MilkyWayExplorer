@@ -67,3 +67,23 @@ Je recherche des personnes intéressées pour contribuer au projet. Si vous avez
     🔊 Sound Design
     🎨 Voxel Art
     💡 Idées de Gameplay
+
+📜 Licence & Copyright
+
+Ce projet est un logiciel propriétaire.
+
+© 2024 Michel Weniger - Tous droits réservés.
+
+Le code source du moteur et du jeu n'est pas public. En téléchargeant ce logiciel, vous obtenez une licence d'utilisation non exclusive.
+
+Autorisations :
+
+    ✅ Usage personnel : Vous pouvez installer et jouer au jeu pour votre usage personnel.
+    ✅ Modding : Vous êtes autorisé à modifier les fichiers de configuration et à créer des mods via l'API Lua (SOL2) fournie à cet effet.
+
+Restrictions :
+
+    🚫 Redistribution : Il est interdit de redistribuer le launcher, les exécutables du jeu ou les assets (graphismes, sons, modèles 3D), que ce soit gratuitement ou contre paiement.
+    🚫 Usage commercial : Vous ne pouvez pas utiliser ce logiciel ou ses assets à des fins commerciales.
+
+Le but est de protéger le travail effectué tout en permettant à la communauté de créer du contenu via les outils officiels.
