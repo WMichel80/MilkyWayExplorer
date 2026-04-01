@@ -1,0 +1,223 @@
+
+
+# ==========================================================
+# GENERAL SERVER
+# ==========================================================
+server.starting=Server starting...
+server.started=Server started successfully on port {PORT}.
+server.stopping=Server shutdown requested.
+server.shutdown=Server will shutdown in {SECONDS}  sec...
+server.stopped=Server stopped.
+server.loading.file=Server is loading the {FILE} file...
+server.file.notexist=Server {FILE} does not exist, generating a new file...
+server.file.isloaded=Server {FILE} is loaded
+server.isready=Server is ready...
+server.shutdown.requested=Server shutdown requested...
+server.backup.start=Backup in progress...
+server.backup.done=Backup complete
+server.threads.stopping=Stopping current threads...
+server.threads.stopped=Threads stopped OK
+server.shutdown.complete=Server successfully shut down.
+server.menu.info=Info
+server.menu.teams=Teams
+server.menu.players=Players
+server.menu.cmds=Commands
+server.menu.config=Config
+server.info.players=Players
+server.info.cpu=CPU
+server.info.ram=RAM
+server.info.ip=IP
+server.info.port=PORT
+server.info.uptime=Uptime
+server.menu.log=SERVER LOGS
+
+# Network
+server.network.init=Initializing network...
+server.network.ready=Network ready. Listening for connections...
+server.network.error=Network error: {ERROR}
+server.player.map.request={PLAYER} ask for the map : {PACKET}
+server.player.cmd.request={PLAYER} request the command : {PACKET}
+server.packet.wrong=Wrong packet from player : {PLAYER}
+server.packet.value=PacketValue : {PACKET}
+server.network.listening=Server is now listening for clients.
+server.network.error_socket=Unable to create the socket.
+server.network.error_bind=Binding is not possible on the port {PORT}
+server.network.start_threads=Start network threads...
+server.connection.accepted=Connection accepted for : {PLAYER}
+
+# Language & Config
+server.lang.loaded=Your language is loaded.
+server.lang.default=Default language selected, please download your language file.
+
+# Chat System Internal
+server.chat.dict_empty=Dictionary empty, no words found.
+server.chat.dict_loaded=Dictionary charged with {COUNT} words.
+server.chat.filter_built=Word filter is built.
+server.chat.loading_words=Loading banned words for chat...
+server.chat.ready=Chat system ready.
+server.chat.banned_words_notfound=Server chat banned words does not exist, generating a new file...
+
+# ==========================================================
+# PLAYER CONNECTION
+# ==========================================================
+player.join={PLAYER} joined the server.
+player.leave={PLAYER} left the server.
+player.kick={PLAYER} was kicked from the server. Reason: {REASON}.
+player.ban={PLAYER} was banned. Reason: {REASON}.
+player.welcome=Welcome {PLAYER}! Type /help for commands.
+player.auth.success=Authentication successful.
+player.auth.failed=Authentication failed: Invalid password.
+
+# ==========================================================
+# CHAT SYSTEM
+# ==========================================================
+chat.public=[Global] {PLAYER}: {MESSAGE}
+chat.private.to=[To {PLAYER}] {MESSAGE}
+chat.private.from=[From {PLAYER}] {MESSAGE}
+chat.team=[Team] {PLAYER}: {MESSAGE}
+chat.muted=You cannot send messages: You are muted.
+chat.filtered=Your message was blocked: Inappropriate content.
+chat.noplayer=Player {PLAYER} not found or offline.
+chat.nopermission=You do not have permission to do that.
+chat.private.sent=[Privat] {PLAYER}
+chat.player.notfound=Player {PLAYER} not found.
+
+# ==========================================================
+# SERVER COMMANDS (/help, /stop, etc.)
+# ==========================================================
+command.unknown=Unknown command. Type /help for a list.
+command.stop=Stopping server...
+command.list.header=Connected Players ({COUNT}/{MAX}):
+command.list.line={PLAYER} (Ping: {PING}ms)
+command.help.title=--- Help Page {PAGE}/{MAX} ---
+command.help.line=/{CMD} - {DESC}
+command.echo=Command : {CMD}
+command.notfound=Command not found : {CMD}
+
+# ==========================================================
+# STORAGE & INVENTORY (Inspiré de ton exemple Minecraft)
+# ==========================================================
+inventory.full=Your inventory is full.
+inventory.drop=Dropped {COUNT}x {ITEM}.
+inventory.pickup=Picked up {COUNT}x {ITEM}.
+inventory.use=Used {ITEM}.
+inventory.craft=Crafted {COUNT}x {ITEM}.
+
+# Storage Manager
+storage.title=Storage Manager
+storage.item.single={COUNT} - 1 Item
+storage.item.plural={COUNT} - {TOTAL} Items
+storage.delete.title=Delete {ITEM} permanently?
+storage.delete.content=Are you sure you want to delete {ITEM}? It will be lost forever!
+storage.delete.confirm=Delete
+storage.delete.cancel=Cancel
+storage.error.readonly=Storage is read-only.
+
+# ==========================================================
+# UI & MENU
+# ==========================================================
+menu.title=Milky Way Explorer
+menu.play=Play
+menu.settings=Settings
+menu.quit=Quit
+menu.back=Back
+menu.ok=Ok
+menu.apply=Apply
+menu.language=Language: {LANG}
+menu.default.player=Player
+menu.adventure=Adventure
+menu.server=Server
+menu.client=Client
+menu.settings=Settings
+menu.plugins=Plugins
+menu.connect=Connect to a server
+menu.playername=Player Name
+menu.server.name=Server Name
+menu.server.adr=Server Adresse
+menu.server.port=Server Port
+menu.server.pass=Server password
+menu.server.save=Save Server
+menu.server.connect=Connect
+menu.settings.gameplay=GamePlay
+menu.settings.Graphics=Graphics
+menu.settings.Controls=Controls
+menu.settings.Audio=Audio
+menu.settings.fullScreen=Full Screen
+menu.settings.System_Keys=System Keys
+menu.settings.OpenMenu=Open Menu
+menu.settings.ToggleHud=Toggle HUD
+menu.settings.Screenshot=Take Screenshot
+menu.settings.ToggleDebug=Debug Menu
+menu.settings.TogglePerspective=Change Camera
+menu.settings.ToggleFullscreen=Toggle Fullscreen
+menu.settings.Movement=Movement
+menu.settings.MoveForward=Move Forward
+menu.settings.MoveBackward=Move Backward
+menu.settings.MoveLeft=Strafe Left
+menu.settings.MoveRight=Strafe Right
+menu.settings.Jump=Jump
+menu.settings.Sneak=Sneak / Down
+menu.settings.Sprint=Sprint
+menu.settings.Combat_Interaction=Combat & Interaction
+menu.settings.Attack=Attack / Mine
+menu.settings.UseItem=Use / Place
+menu.settings.PickBlock=Pick Block
+menu.settings.Use=Interact / Inventory
+menu.settings.DropItem=Drop Item
+menu.settings.Hotbar=Hotbar
+menu.settings.HotbarSlot1=Hotbar Slot 1
+menu.settings.HotbarSlot2=Hotbar Slot 2
+menu.settings.HotbarSlot3=Hotbar Slot 3
+menu.settings.HotbarSlot4=Hotbar Slot 4
+menu.settings.HotbarSlot5=Hotbar Slot 5
+menu.settings.HotbarSlot6=Hotbar Slot 6
+menu.settings.HotbarSlot7=Hotbar Slot 7
+menu.settings.HotbarSlot8=Hotbar Slot 8
+menu.settings.HotbarSlot9=Hotbar Slot 9
+menu.settings.ScrollHotbar=Scroll Hotbar
+menu.settings.Chat_Multiplayer=Chat & Multiplayer
+menu.settings.OpenChat=Open Chat
+menu.settings.OpenCommand=Command Console
+menu.settings.PlayerList=Show Players
+menu.settings.Advancements=Advancements
+menu.settings.Mouse_Configuration=Mouse Configuration
+menu.settings.MouseSensitivity=Mouse Sensitivity
+menu.settings.MouseAdsMultiplier=ADS Sensitivity
+menu.settings.MouseInvertY=Invert Y-Axis
+menu.settings.MouseSmoothing=Mouse Smoothing
+# Settings Tabs
+settings.tab.graphics=Graphics
+settings.tab.audio=Audio
+settings.tab.controls=Controls
+settings.fullscreen=Fullscreen
+settings.vsync=VSync
+
+# ==========================================================
+# GAMEPLAY
+# ==========================================================
+game.death={PLAYER} died.
+game.death.fall={PLAYER} fell from a high place.
+game.death.pvp={KILLER} killed {VICTIM}.
+game.respawn=Respawning...
+game.levelup={PLAYER} reached Level {LEVEL}!
+game.loading=Loading... {PERCENT}%
+game.loaded=Done loading!
+
+# ==========================================================
+# ERRORS & SYSTEM
+# ==========================================================
+error.generic=An error occurred: {ERROR}
+error.connection.lost=Connection to server lost.
+error.connection.timeout=Connection timed out.
+error.file.notfound=File not found: {FILE}
+error.memory.low=Warning: Low memory available ({RAM}MB).
+error.file.write=Cannot write file.
+error.server.notconfig=Server is not configured.
+error.server.notconfig2=Please check 'Config/serverConfig.cfg' and set 'serverConfigured = false' to true.
+error.empty.port=Port number is empty
+error.invalid.port.chars=Invalid character in port number
+error.port.range=The port must be between 1 and 65535
+error.port.notnumber=The port number is not valid.
+error.empty.ip=The IP address is empty
+
+

@@ -1,0 +1,181 @@
+# ==========================================================
+# GÉNÉRAL SERVEUR
+# ==========================================================
+server.starting=Démarrage du serveur...
+server.started=Serveur lancé avec succès sur le port {PORT}.
+server.stopping=Demande d'arrêt du serveur reçue.
+server.shutdown=Arrêt du serveur dans {SECONDS} sec...
+server.stopped=Serveur arrêté.
+server.loading.file=Chargement du fichier {FILE}...
+server.file.notexist=Fichier {FILE} introuvable, génération d'un nouveau fichier...
+server.file.isloaded=Fichier {FILE} chargé.
+server.isready=Le serveur est prêt.
+server.shutdown.requested=Arrêt du serveur requis...
+server.backup.start=Sauvegarde (Backup) en cours...
+server.backup.done=Sauvegarde terminée.
+server.threads.stopping=Arrêt des processus (threads) en cours...
+server.threads.stopped=Processus interrompus avec succès.
+server.shutdown.complete=Le serveur s'est éteint correctement.
+server.menu.info=Infos
+server.menu.teams=Équipes
+server.menu.players=Joueurs
+server.menu.cmds=Commandes
+server.menu.config=Config
+server.info.players=Joueurs
+server.info.cpu=Processeur
+server.info.ram=RAM
+server.info.ip=IP
+server.info.port=PORT
+server.info.uptime=En ligne depuis
+server.menu.log=LOGS SERVEUR
+
+# Réseau
+server.network.init=Initialisation du réseau...
+server.network.ready=Réseau prêt. En attente de connexions...
+server.network.error=Erreur réseau : {ERROR}
+server.player.map.request={PLAYER} demande la carte : {PACKET}
+server.player.cmd.request={PLAYER} exécute la commande : {PACKET}
+server.packet.wrong=Paquet invalide reçu de : {PLAYER}
+server.packet.value=Valeur du paquet : {PACKET}
+server.network.listening=Le serveur est désormais à l'écoute des clients.
+server.network.error_socket=Échec de la création du socket.
+server.network.error_bind=Impossible de lier le port {PORT} (déjà utilisé ?).
+server.network.start_threads=Lancement des processus réseau...
+server.connection.accepted=Connexion établie pour : {PLAYER}
+
+# Langue & Config
+server.lang.loaded=Votre langue a été chargée avec succès.
+server.lang.default=Langue par défaut sélectionnée, veuillez télécharger votre fichier de langue.
+
+# Système de Chat Interne
+server.chat.dict_empty=Dictionnaire vide, aucun mot trouvé.
+server.chat.dict_loaded=Dictionnaire chargé ({COUNT} mots).
+server.chat.filter_built=Filtre de mots configuré.
+server.chat.loading_words=Chargement de la liste noire du chat...
+server.chat.ready=Système de chat opérationnel.
+server.chat.banned_words_notfound=La liste des mots bannis n'existe pas, génération d'un nouveau fichier...
+
+# ==========================================================
+# CONNEXION & JOUEUR
+# ==========================================================
+player.join={PLAYER} a rejoint la partie.
+player.leave={PLAYER} a quitté la partie.
+player.kick={PLAYER} a été expulsé. Raison : {REASON}.
+player.ban={PLAYER} a été banni. Raison : {REASON}.
+player.welcome=Bienvenue {PLAYER} ! Taper /help pour les commandes.
+player.auth.success=Authentification réussie.
+player.auth.failed=Échec d'authentification : Mot de passe incorrect.
+
+# ==========================================================
+# SYSTÈME DE CHAT
+# ==========================================================
+chat.public=[Global] {PLAYER}: {MESSAGE}
+chat.private.to=[À {PLAYER}] {MESSAGE}
+chat.private.from=[De {PLAYER}] {MESSAGE}
+chat.team=[Équipe] {PLAYER}: {MESSAGE}
+chat.muted=Action impossible : Vous êtes réduit au silence (muet).
+chat.filtered=Message bloqué : Contenu inapproprié détecté.
+chat.noplayer=Joueur {PLAYER} introuvable ou hors ligne.
+chat.nopermission=Vous n'avez pas la permission de faire cela.
+chat.private.sent=[Privé] {PLAYER}
+chat.player.notfound=Joueur {PLAYER} non trouvé.
+
+# ==========================================================
+# COMMANDES SERVEUR (/help, /stop, etc.)
+# ==========================================================
+command.unknown=Commande inconnue. Tapez /help pour voir la liste.
+command.stop=Arrêt du serveur en cours...
+command.list.header=Joueurs en ligne ({COUNT}/{MAX}) :
+command.list.line={PLAYER} (Latence : {PING}ms)
+command.help.title=--- Page d'aide {PAGE}/{MAX} ---
+command.help.line=/{CMD} - {DESC}
+command.echo=Commande : {CMD}
+command.notfound=Commande introuvable : {CMD}
+
+# ==========================================================
+# STOCKAGE & INVENTAIRE
+# ==========================================================
+inventory.full=Votre inventaire est plein !
+inventory.drop=Objet jeté : {COUNT}x {ITEM}.
+inventory.pickup=Objet ramassé : {COUNT}x {ITEM}.
+inventory.use=Objet utilisé : {ITEM}.
+inventory.craft=Objet fabriqué : {COUNT}x {ITEM}.
+
+# Gestionnaire de Stockage
+storage.title=Gestionnaire de Stockage
+storage.item.single={COUNT} - 1 Objet
+storage.item.plural={COUNT} - {TOTAL} Objets
+storage.delete.title=Supprimer {ITEM} définitivement ?
+storage.delete.content=Êtes-vous sûr de vouloir supprimer {ITEM} ? Il sera perdu pour toujours !
+storage.delete.confirm=Supprimer
+storage.delete.cancel=Annuler
+storage.error.readonly=Le stockage est en lecture seule (modification interdite).
+
+# ==========================================================
+# UI & MENU
+# ==========================================================
+menu.title=Milky Way Explorer
+menu.play=Jouer
+menu.settings=Paramètres
+menu.quit=Quitter
+menu.back=Retour
+menu.apply=Appliquer
+menu.language=Langue : {LANG}
+menu.ok=Ok
+menu.apply=Appliquer
+menu.language=Langue: {LANG}
+menu.default.player=Joueur
+menu.adventure=Aventure
+menu.server=Serveur
+menu.client=Client
+menu.settings=Paramètres
+menu.plugins=Plugins
+menu.connect=Se connecter à un serveur
+menu.playername=Nom du joueur
+menu.server.name=Nom du serveur
+menu.server.adr=Adresse du serveur
+menu.server.port=Port du serveur
+menu.server.pass=Mot de passe serveur
+menu.server.save=Sauvegarder le serveur
+menu.server.connect=Connexion
+menu.settings.gameplay=Jeu
+menu.settings.Graphics=Graphismes
+menu.settings.Controls=Contrôles
+menu.settings.Audio=Audio
+menu.settings.fullScreen=Plein écran
+
+
+# Onglets Paramètres
+settings.tab.graphics=Graphismes
+settings.tab.audio=Audio
+settings.tab.controls=Contrôles
+settings.fullscreen=Plein écran
+settings.vsync=V-Sync
+
+# ==========================================================
+# GAMEPLAY
+# ==========================================================
+game.death={PLAYER} est mort.
+game.death.fall={PLAYER} est tombé d'un endroit élevé.
+game.death.pvp={KILLER} a tué {VICTIM}.
+game.respawn=Réapparition...
+game.levelup={PLAYER} a atteint le Niveau {LEVEL} !
+game.loading=Chargement... {PERCENT}%
+game.loaded=Chargement terminé !
+
+# ==========================================================
+# ERREURS & SYSTÈME
+# ==========================================================
+error.generic=Une erreur est survenue : {ERROR}
+error.connection.lost=Connexion au serveur perdue.
+error.connection.timeout=Délai de connexion dépassé.
+error.file.notfound=Fichier non trouvé : {FILE}
+error.memory.low=Attention : Mémoire disponible faible ({RAM}Mo).
+error.file.write=Impossible d'écrire le fichier.
+error.server.notconfig=Le serveur n'est pas configuré.
+error.server.notconfig2=Veuillez vérifier 'Config/serverConfig.cfg' et passer 'serverConfigured = false' à true.
+error.empty.port=Le numéro de port est vide
+error.invalid.port.chars=Caractère invalide dans le numéro de port
+error.port.range=Le port doit être compris entre 1 et 65535
+error.port.notnumber=Le numéro de port n'est pas valide
+error.empty.ip=L'adresse IP est vide
