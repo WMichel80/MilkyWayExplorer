@@ -45,9 +45,9 @@ Cette version est une version technique destinée à valider les infrastructures
 
 ### ⚠️ Comment tester le Chat ?
 Le système de chat est opérationnel, mais il nécessite une manipulation spécifique pour être testé en local :
-1. Lancez le jeu une première fois en mode **Serveur** : 
-   `./MilkyWayExplorer --mode Serveur` (Linux) ou `MilkyWayExplorer.exe --mode Serveur` (Windows)
-2. Lancez le jeu une deuxième fois en mode **Client** (Double-clic sur l'exécutable).
+1. Lancez le jeu une première fois en mode **Serveur** :
+2. `./MilkyWayExplorer --mode Serveur` (Linux) ou `MilkyWayExplorer.exe --mode Serveur` (Windows)
+3. Lancez le jeu une deuxième fois en mode **Client** (Double-clic sur l'exécutable).
 
 🚧 Statut du projet
 
