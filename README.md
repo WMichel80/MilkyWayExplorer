@@ -40,6 +40,7 @@ Cette version est une version technique destinée à valider les infrastructures
 
 Fichiers disponibles :
 
+    Télécharger le .zip de la version Alpha et décompresser.
     MilkyWayExplorer (Linux)
     MilkyWayExplorer.exe (Windows)
 
