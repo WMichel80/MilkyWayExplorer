@@ -34,19 +34,66 @@ Le jeu est conçu pour être entièrement moddable et accessible aux créateurs 
     API Lua (SOL2) : Pour scripter vos propres mécaniques et mods.
     Éditeur Voxel Art : Un outil est en cours de développement pour faciliter la création de contenu (assets, décors, etc.).
 
-📦 Alpha V1.0 (Technical Test)
+📦 Alpha V1.1 (Technical Test)
 
-Cette première version est une version technique destinée à valider les infrastructures du jeu. Elle ne contient pas encore le gameplay final, mais permet de tester les fondations du projet.
-Objectifs de cette version :
+Cette version est une version technique destinée à valider les infrastructures du jeu. Elle ne contient pas encore le gameplay final, mais permet de tester les fondations du projet.
+Avancement du projet :
 
-    🖥 Test du Launcher – Vérification du bon fonctionnement de l'interface de lancement.
-    ⬇️ Installation & Mises à jour – Test du processus d'installation et du système de mise à jour automatique (Launcher + Jeu).
-    💬 Test de la console de chat – Validation de la communication réseau.
+################################################################################
+##                       PROJET MILKYWAY - MODULE TODO LIST                   ##
+################################################################################
+MODULES                                     | ACHEVÉ % | INTÉGRÉ % | STATUT
+--------------------------------------------|----------|-----------|------------
+Launcher and UpdateManager                  |    50%   |    50%    | En cours
+ConnectionManager                           |   100%   |   100%    | OK
+ConfigManager                               |   100%   |   100%    | OK
+DictionaryManager                           |   100%   |   100%    | OK
+PluginManager (LUA/SOL2)                    |    15%   |    10%    | En cours
+ChatManager                                 |   100%   |    95%    | En cours
+TemplateManager                             |   100%   |   100%    | OK
+StartMenu / InGameMenu                      |    40%   |    40%    | En cours
+SoundMusicManager                           |   100%   |   100%    | OK
+PlayerManager                               |   100%   |     0%    | En cours
+PermList                                    |   100%   |     0%    | En cours
+GroupManager                                |   100%   |     0%    | En cours
+CommandDispatcher                           |   100%   |     0%    | En cours
+GalaxyManager                               |     0%   |     0%    | ToDo
+WorldManager                                |    20%   |     0%    | En cours
+DrawManager                                 |    90%   |     0%    | En cours
+WorldEditManager                            |     0%   |     0%    | ToDo
+ClaimManager                                |     0%   |     0%    | ToDo
+TeamManager                                 |   100%   |     0%    | En cours
+ObjectManager and Editor                    |     0%   |     0%    | ToDo
+Biomes and NoiseManager                     |     0%   |     0%    | ToDo
+VegetationManager                           |     0%   |     0%    | ToDo
+ItemManager                                 |     0%   |     0%    | ToDo
+WeaponsManager                              |     0%   |     0%    | ToDo
+ChestManager                                |     0%   |     0%    | ToDo
+                        Passage en version Béta
+CraftingSys                                 |     0%   |     0%    | ToDo
+Enchantments / Magic / Witch                |     0%   |     0%    | ToDo
+MiniMapSys and Compass                      |     0%   |     0%    | ToDo
+EnemiesAIManager                            |     0%   |     0%    | ToDo
+Spawner and EnemiesManager                  |     0%   |     0%    | ToDo
+Warp and PortalsManager                     |     0%   |     0%    | ToDo
+Day/Night / Weather / Seasons               |     0%   |     0%    | ToDo
+MonumentManager                             |     0%   |     0%    | ToDo
+Vehicles (Car, Train, Space)                |     0%   |     0%    | ToDo
+ElectronicSystem                            |     0%   |     0%    | ToDo
+DialogWindows (Score, Input)                |     0%   |     0%    | ToDo
+KitsManager                                 |     0%   |     0%    | ToDo
+EcoSys / Shops / Trade                      |     0%   |     0%    | ToDo
+RandomRewardsSys                            |     0%   |     0%    | ToDo
+DungeonManager                              |     0%   |     0%    | ToDo
+JobManager                                  |     0%   |     0%    | ToDo
+EventsSystem                                |     0%   |     0%    | ToDo
+
+--------------------------------------------------------------------------------
 
 Fichiers disponibles :
 
-    launcher (Linux)
-    launcher.exe (Windows)
+    MilkyWayExplorer (Linux)
+    MilkyWayExplorer.exe (Windows)
 
 ⚠️ Comment tester le Chat ?
 
