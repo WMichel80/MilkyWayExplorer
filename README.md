@@ -69,7 +69,6 @@ VegetationManager                           |     0%   |     0%    | ToDo
 ItemManager                                 |     0%   |     0%    | ToDo
 WeaponsManager                              |     0%   |     0%    | ToDo
 ChestManager                                |     0%   |     0%    | ToDo
-                        Passage en version Béta
 CraftingSys                                 |     0%   |     0%    | ToDo
 Enchantments / Magic / Witch                |     0%   |     0%    | ToDo
 MiniMapSys and Compass                      |     0%   |     0%    | ToDo
