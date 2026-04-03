@@ -37,7 +37,22 @@ Le jeu est conçu pour être entièrement moddable et accessible aux créateurs 
 📦 Alpha V1.1 (Technical Test)
 
 Cette version est une version technique destinée à valider les infrastructures du jeu. Elle ne contient pas encore le gameplay final, mais permet de tester les fondations du projet.
-Avancement du projet :
+
+Fichiers disponibles :
+
+    MilkyWayExplorer (Linux)
+    MilkyWayExplorer.exe (Windows)
+
+⚠️ Comment tester le Chat ?
+
+Le système de chat est opérationnel, mais il nécessite une manipulation spécifique pour être testé en local :
+
+    Lancez le jeu une première fois en mode Serveur. : MilkyWayExplorer --mode Serveur (Linux) // MilkyWayExplorer.exe --mode Serveur (Windows)
+    Lancez le jeu une deuxième fois en mode Client. Double clique sur l'executable.
+
+🚧 Statut du projet
+
+Le projet est en développement actif. Une version Alpha pour les premiers tests.
 
                        PROJET MILKYWAY - MODULE TODO LIST                   
 MODULES                                     | ACHEVÉ % | INTÉGRÉ % | STATUT
@@ -85,22 +100,6 @@ DungeonManager                              |     0%   |     0%    | ToDo
 JobManager                                  |     0%   |     0%    | ToDo
 EventsSystem                                |     0%   |     0%    | ToDo
 --------------------------------------------------------------------------------
-
-Fichiers disponibles :
-
-    MilkyWayExplorer (Linux)
-    MilkyWayExplorer.exe (Windows)
-
-⚠️ Comment tester le Chat ?
-
-Le système de chat est opérationnel, mais il nécessite une manipulation spécifique pour être testé en local :
-
-    Lancez le launcher une première fois en mode Serveur.
-    Lancez le launcher une deuxième fois en mode Client.
-
-🚧 Statut du projet
-
-Le projet est en développement actif. Une version Alpha pour les premiers tests arrive bientôt.
 
 🤝 Contribuer
 
