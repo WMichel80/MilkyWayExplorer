@@ -4,10 +4,10 @@
 server.starting=Запуск сервера...
 server.started=Сервер успешно запущен на порту {PORT}.
 server.stopping=Запрошена остановка сервера.
-server.shutdown=Сервер закроется через {SECONDS} сек...
+server.shutdown=Сервер выключится через {SECONDS} сек...
 server.stopped=Сервер остановлен.
 server.loading.file=Загрузка файла {FILE}...
-server.file.notexist=Файл {FILE} не существует, создается новый...
+server.file.notexist=Файл {FILE} не существует, создание нового файла...
 server.file.isloaded=Файл {FILE} загружен.
 server.isready=Сервер готов...
 server.shutdown.requested=Запрошено выключение сервера...
@@ -17,7 +17,7 @@ server.threads.stopping=Остановка текущих потоков...
 server.threads.stopped=Потоки успешно остановлены.
 server.shutdown.complete=Сервер успешно выключен.
 server.menu.info=Инфо
-server.menu.teams=Группы
+server.menu.teams=Команды
 server.menu.players=Игроки
 server.menu.cmds=Команды
 server.menu.config=Конфиг
@@ -33,36 +33,36 @@ server.menu.log=ЛОГИ СЕРВЕРА
 server.network.init=Инициализация сети...
 server.network.ready=Сеть готова. Ожидание подключений...
 server.network.error=Сетевая ошибка: {ERROR}
-server.player.map.request={PLAYER} запрашивает карту : {PACKET}
-server.player.cmd.request={PLAYER} запрашивает команду : {PACKET}
-server.packet.wrong=Неверный пакет от игрока : {PLAYER}
-server.packet.value=Значение пакета : {PACKET}
-server.network.listening=Сервер прослушивает подключения клиентов.
+server.player.map.request={PLAYER} запрашивает карту: {PACKET}
+server.player.cmd.request={PLAYER} запрашивает команду: {PACKET}
+server.packet.wrong=Неверный пакет от игрока: {PLAYER}
+server.packet.value=Значение пакета: {PACKET}
+server.network.listening=Сервер ожидает подключения клиентов.
 server.network.error_socket=Не удалось создать сокет.
-server.network.error_bind=Привязка к порту {PORT} невозможна.
+server.network.error_bind=Невозможно привязаться к порту {PORT}.
 server.network.start_threads=Запуск сетевых потоков...
-server.connection.accepted=Соединение принято для : {PLAYER}
+server.connection.accepted=Соединение принято для: {PLAYER}
 
 # Language & Config
 server.lang.loaded=Языковой пакет загружен.
-server.lang.default=Выбран язык по умолчанию, пожалуйста, скачайте файл локализации.
+server.lang.default=Выбран язык по умолчанию, пожалуйста, скачайте языковой файл.
 
 # Chat System Internal
 server.chat.dict_empty=Словарь пуст, слов не найдено.
-server.chat.dict_loaded=Словарь загружен ({COUNT} слов).
+server.chat.dict_loaded=Словарь загружен: {COUNT} слов.
 server.chat.filter_built=Фильтр слов настроен.
 server.chat.loading_words=Загрузка списка запрещенных слов...
-server.chat.ready=Система чата готова.
-server.chat.banned_words_notfound=Файл запрещенных слов не найден, создается новый...
+server.chat.ready=Чат-система готова.
+server.chat.banned_words_notfound=Файл запрещенных слов не найден, создание нового файла...
 
 # ==========================================================
 # PLAYER CONNECTION
 # ==========================================================
-player.join={PLAYER} присоединился к серверу.
+player.join={PLAYER} зашел на сервер.
 player.leave={PLAYER} покинул сервер.
-player.kick={PLAYER} был исключен. Причина: {REASON}.
+player.kick={PLAYER} был кикнут с сервера. Причина: {REASON}.
 player.ban={PLAYER} был забанен. Причина: {REASON}.
-player.welcome=Добро пожаловать, {PLAYER}! Введите /help для списка команд.
+player.welcome=Добро пожаловать, {PLAYER}! Введите /help для просмотра команд.
 player.auth.success=Авторизация успешна.
 player.auth.failed=Ошибка авторизации: неверный пароль.
 
@@ -70,14 +70,14 @@ player.auth.failed=Ошибка авторизации: неверный пар�
 # CHAT SYSTEM
 # ==========================================================
 chat.public=[Глобальный] {PLAYER}: {MESSAGE}
-chat.private.to=[Кому {PLAYER}] {MESSAGE}
-chat.private.from=[От {PLAYER}] {MESSAGE}
-chat.team=[Команда] {PLAYER}: {MESSAGE}
-chat.muted=Вы не можете отправлять сообщения: чат заблокирован.
-chat.filtered=Ваше сообщение заблокировано: недопустимое содержание.
+chat.private.to=[Кому: {PLAYER}] {MESSAGE}
+chat.private.from=[От: {PLAYER}] {MESSAGE}
+chat.team=[Командный] {PLAYER}: {MESSAGE}
+chat.muted=Вы не можете отправлять сообщения: у вас мут.
+chat.filtered=Ваше сообщение заблокировано: недопустимое содержимое.
 chat.noplayer=Игрок {PLAYER} не найден или не в сети.
 chat.nopermission=У вас нет прав для этого действия.
-chat.private.sent=[Приватно] {PLAYER}
+chat.private.sent=[Личное] {PLAYER}
 chat.player.notfound=Игрок {PLAYER} не найден.
 
 # ==========================================================
@@ -85,28 +85,28 @@ chat.player.notfound=Игрок {PLAYER} не найден.
 # ==========================================================
 command.unknown=Неизвестная команда. Введите /help для списка.
 command.stop=Остановка сервера...
-command.list.header=Игроки онлайн ({COUNT}/{MAX}):
+command.list.header=Игроки в сети ({COUNT}/{MAX}):
 command.list.line={PLAYER} (Пинг: {PING}мс)
-command.help.title=--- Справка, страница {PAGE}/{MAX} ---
+command.help.title=--- Помощь: Страница {PAGE}/{MAX} ---
 command.help.line=/{CMD} - {DESC}
-command.echo=Команда : {CMD}
-command.notfound=Команда не найдена : {CMD}
+command.echo=Команда: {CMD}
+command.notfound=Команда не найдена: {CMD}
 
 # ==========================================================
 # STORAGE & INVENTORY
 # ==========================================================
 inventory.full=Ваш инвентарь полон.
-inventory.drop=Выброшено {COUNT}x {ITEM}.
-inventory.pickup=Поднято {COUNT}x {ITEM}.
-inventory.use=Использовано {ITEM}.
-inventory.craft=Создано {COUNT}x {ITEM}.
+inventory.drop=Выброшено: {COUNT}x {ITEM}.
+inventory.pickup=Поднято: {COUNT}x {ITEM}.
+inventory.use=Использовано: {ITEM}.
+inventory.craft=Создано: {COUNT}x {ITEM}.
 
 # Storage Manager
-storage.title=Менеджер хранилища
-storage.item.single={COUNT} - 1 предмет
-storage.item.plural={COUNT} - {TOTAL} предметов
+storage.title=Управление хранилищем
+storage.item.single={COUNT} - 1 Предмет
+storage.item.plural={COUNT} - Всего предметов: {TOTAL}
 storage.delete.title=Удалить {ITEM} навсегда?
-storage.delete.content=Вы уверены, что хотите удалить {ITEM}? Он будет потерян навсегда!
+storage.delete.content=Вы уверены, что хотите удалить {ITEM}? Он будет утерян безвозвратно!
 storage.delete.confirm=Удалить
 storage.delete.cancel=Отмена
 storage.error.readonly=Хранилище доступно только для чтения.
@@ -117,18 +117,19 @@ storage.error.readonly=Хранилище доступно только для �
 menu.title=Milky Way Explorer
 menu.play=Играть
 menu.settings=Настройки
-menu.quit=Выход
+menu.quit=Выйти
 menu.back=Назад
-menu.apply=Применить
-menu.language=Язык: {LANG}
 menu.ok=Ок
 menu.apply=Применить
+menu.btn.default = По умолчанию
+menu.btn.discard = Отменить изменения
+menu.btn.save = Сохранить изменения
+menu.unassigned = Не назначено
 menu.language=Язык: {LANG}
 menu.default.player=Игрок
 menu.adventure=Приключение
 menu.server=Сервер
 menu.client=Клиент
-menu.settings=Настройки
 menu.plugins=Плагины
 menu.connect=Подключиться к серверу
 menu.playername=Имя игрока
@@ -143,19 +144,72 @@ menu.settings.Graphics=Графика
 menu.settings.Controls=Управление
 menu.settings.Audio=Звук
 menu.settings.fullScreen=Полный экран
-
+menu.settings.System_Keys=Системные клавиши
+menu.settings.OpenMenu=Открыть меню
+menu.settings.ToggleHud=Переключить интерфейс
+menu.settings.Screenshot=Сделать скриншот
+menu.settings.ToggleDebug=Меню отладки
+menu.settings.TogglePerspective=Смена камеры
+menu.settings.ToggleFullscreen=Полноэкранный режим
+menu.settings.Movement=Движение
+menu.settings.MoveForward=Вперед
+menu.settings.MoveBackward=Назад
+menu.settings.MoveLeft=Влево
+menu.settings.MoveRight=Вправо
+menu.settings.Jump=Прыжок
+menu.settings.Sneak=Присесть / Вниз
+menu.settings.Sprint=Спринт
+menu.settings.Combat_Interaction=Бой и взаимодействие
+menu.settings.Attack=Атака / Копать
+menu.settings.UseItem=Использовать / Поставить
+menu.settings.PickBlock=Выбор блока
+menu.settings.Use=Взаимодействие / Инвентарь
+menu.settings.DropItem=Выбросить предмет
+menu.settings.Hotbar=Панель быстрого доступа
+menu.settings.HotbarSlot1=Слот 1
+menu.settings.HotbarSlot2=Слот 2
+menu.settings.HotbarSlot3=Слот 3
+menu.settings.HotbarSlot4=Слот 4
+menu.settings.HotbarSlot5=Слот 5
+menu.settings.HotbarSlot6=Слот 6
+menu.settings.HotbarSlot7=Слот 7
+menu.settings.HotbarSlot8=Слот 8
+menu.settings.HotbarSlot9=Слот 9
+menu.settings.ScrollHotbar=Прокрутка панели
+menu.settings.Chat_Multiplayer=Чат и мультиплеер
+menu.settings.OpenChat=Открыть чат
+menu.settings.OpenCommand=Консоль команд
+menu.settings.PlayerList=Список игроков
+menu.settings.Advancements=Достижения
+menu.settings.Mouse_Configuration=Настройка мыши
+menu.settings.MouseSensitivity=Чувствительность
+menu.settings.MouseAdsMultiplier=Чувствительность прицела
+menu.settings.MouseInvertY=Инверсия оси Y
+menu.settings.MouseSmoothing=Сглаживание мыши
+menu.settings.label.commands = Команды
+menu.settings.label.keyboard = Клавиатура / Мышь
+menu.settings.label.gamepad = Геймпад / Джойстик
+menu.mixer.title = МИКШЕР ЗВУКА
+menu.mixer.master = Общая громкость
+menu.mixer.music = Музыка
+menu.mixer.sfx = Звуковые эффекты
+menu.mixer.ambient = Окружение
+menu.mixer.ui = Интерфейс
+menu.mixer.voice = Голос
+menu.mixer.mute = ВЫКЛ. ЗВУК
+menu.mixer.unmute = ВКЛ. ЗВУК
 # Settings Tabs
 settings.tab.graphics=Графика
 settings.tab.audio=Звук
 settings.tab.controls=Управление
-settings.fullscreen=Полноэкранный режим
-settings.vsync=Вертикальная синхронизация
+settings.fullscreen=Полный экран
+settings.vsync=Вертик. синхронизация
 
 # ==========================================================
 # GAMEPLAY
 # ==========================================================
 game.death={PLAYER} погиб.
-game.death.fall={PLAYER} упал с большой высоты.
+game.death.fall={PLAYER} упал с высоты.
 game.death.pvp={KILLER} убил {VICTIM}.
 game.respawn=Возрождение...
 game.levelup={PLAYER} достиг уровня {LEVEL}!
@@ -169,12 +223,12 @@ error.generic=Произошла ошибка: {ERROR}
 error.connection.lost=Соединение с сервером потеряно.
 error.connection.timeout=Время ожидания соединения истекло.
 error.file.notfound=Файл не найден: {FILE}
-error.memory.low=Внимание: недостаточно памяти ({RAM}МБ).
+error.memory.low=Внимание: мало памяти ({RAM}МБ).
 error.file.write=Не удалось записать файл.
 error.server.notconfig=Сервер не настроен.
-error.server.notconfig2=Проверьте 'Config/serverConfig.cfg' и установите 'serverConfigured' в значение true.
-error.empty.port=Номер порта не указан
-error.invalid.port.chars=Недопустимый символ в номере порта
-error.port.range=Порт должен быть в диапазоне от 1 до 65535
-error.port.notnumber=Некорректный номер порта
-error.empty.ip=IP-адрес не указан
+error.server.notconfig2=Пожалуйста, проверьте 'Config/serverConfig.cfg' и установите 'serverConfigured' в значение true.
+error.empty.port=Номер порта не указан.
+error.invalid.port.chars=Недопустимые символы в номере порта.
+error.port.range=Порт должен быть в диапазоне от 1 до 65535.
+error.port.notnumber=Некорректный номер порта.
+error.empty.ip=IP-адрес не указан.

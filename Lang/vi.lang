@@ -1,0 +1,233 @@
+# ==========================================================
+# GENERAL SERVER
+# ==========================================================
+server.starting=Đang khởi động máy chủ...
+server.started=Máy chủ đã khởi động thành công tại cổng {PORT}.
+server.stopping=Yêu cầu tắt máy chủ.
+server.shutdown=Máy chủ sẽ tắt trong {SECONDS} giây...
+server.stopped=Máy chủ đã dừng.
+server.loading.file=Máy chủ đang tải tệp {FILE}...
+server.file.notexist=Tệp {FILE} không tồn tại, đang tạo tệp mới...
+server.file.isloaded=Tệp {FILE} đã được tải.
+server.isready=Máy chủ đã sẵn sàng...
+server.shutdown.requested=Đã yêu cầu tắt máy chủ...
+server.backup.start=Đang tiến hành sao lưu...
+server.backup.done=Sao lưu hoàn tất.
+server.threads.stopping=Đang dừng các luồng hiện tại...
+server.threads.stopped=Các luồng đã dừng thành công.
+server.shutdown.complete=Máy chủ đã tắt thành công.
+server.menu.info=Thông tin
+server.menu.teams=Đội
+server.menu.players=Người chơi
+server.menu.cmds=Lệnh
+server.menu.config=Cấu hình
+server.info.players=Người chơi
+server.info.cpu=CPU
+server.info.ram=RAM
+server.info.ip=IP
+server.info.port=CỔNG
+server.info.uptime=Thời gian hoạt động
+server.menu.log=NHẬT KÝ MÁY CHỦ
+
+# Network
+server.network.init=Đang khởi tạo mạng...
+server.network.ready=Mạng đã sẵn sàng. Đang chờ kết nối...
+server.network.error=Lỗi mạng: {ERROR}
+server.player.map.request={PLAYER} yêu cầu bản đồ: {PACKET}
+server.player.cmd.request={PLAYER} yêu cầu lệnh: {PACKET}
+server.packet.wrong=Gói tin sai từ người chơi: {PLAYER}
+server.packet.value=Giá trị gói tin: {PACKET}
+server.network.listening=Máy chủ đang lắng nghe các máy khách.
+server.network.error_socket=Không thể tạo socket.
+server.network.error_bind=Không thể liên kết cổng {PORT}.
+server.network.start_threads=Bắt đầu các luồng mạng...
+server.connection.accepted=Đã chấp nhận kết nối cho: {PLAYER}
+
+# Language & Config
+server.lang.loaded=Ngôn ngữ của bạn đã được tải.
+server.lang.default=Đã chọn ngôn ngữ mặc định, vui lòng tải tệp ngôn ngữ của bạn.
+
+# Chat System Internal
+server.chat.dict_empty=Từ điển trống, không tìm thấy từ nào.
+server.chat.dict_loaded=Từ điển đã tải với {COUNT} từ.
+server.chat.filter_built=Bộ lọc từ đã được xây dựng.
+server.chat.loading_words=Đang tải các từ cấm trong trò chuyện...
+server.chat.ready=Hệ thống trò chuyện đã sẵn sàng.
+server.chat.banned_words_notfound=Tệp từ cấm không tồn tại, đang tạo tệp mới...
+
+# ==========================================================
+# PLAYER CONNECTION
+# ==========================================================
+player.join={PLAYER} đã tham gia máy chủ.
+player.leave={PLAYER} đã rời khỏi máy chủ.
+player.kick={PLAYER} đã bị đuổi khỏi máy chủ. Lý do: {REASON}.
+player.ban={PLAYER} đã bị cấm. Lý do: {REASON}.
+player.welcome=Chào mừng {PLAYER}! Gõ /help để xem các lệnh.
+player.auth.success=Xác thực thành công.
+player.auth.failed=Xác thực thất bại: Mật khẩu không hợp lệ.
+
+# ==========================================================
+# CHAT SYSTEM
+# ==========================================================
+chat.public=[Toàn cầu] {PLAYER}: {MESSAGE}
+chat.private.to=[Gửi {PLAYER}] {MESSAGE}
+chat.private.from=[Từ {PLAYER}] {MESSAGE}
+chat.team=[Đội] {PLAYER}: {MESSAGE}
+chat.muted=Bạn không thể gửi tin nhắn: Bạn đang bị tắt tiếng.
+chat.filtered=Tin nhắn của bạn đã bị chặn: Nội dung không phù hợp.
+chat.noplayer=Không tìm thấy người chơi {PLAYER}.
+chat.nopermission=Bạn không có quyền thực hiện việc này.
+chat.private.sent=[Riêng tư] {PLAYER}
+chat.player.notfound=Không tìm thấy người chơi {PLAYER}.
+
+# ==========================================================
+# SERVER COMMANDS
+# ==========================================================
+command.unknown=Lệnh không xác định. Gõ /help để xem danh sách.
+command.stop=Đang dừng máy chủ...
+command.list.header=Người chơi đang kết nối ({COUNT}/{MAX}):
+command.list.line={PLAYER} (Ping: {PING}ms)
+command.help.title=--- Trang trợ giúp {PAGE}/{MAX} ---
+command.help.line=/{CMD} - {DESC}
+command.echo=Lệnh: {CMD}
+command.notfound=Không tìm thấy lệnh: {CMD}
+
+# ==========================================================
+# STORAGE & INVENTORY
+# ==========================================================
+inventory.full=Túi đồ của bạn đã đầy.
+inventory.drop=Đã thả {COUNT}x {ITEM}.
+inventory.pickup=Đã nhặt {COUNT}x {ITEM}.
+inventory.use=Đã dùng {ITEM}.
+inventory.craft=Đã chế tạo {COUNT}x {ITEM}.
+
+# Storage Manager
+storage.title=Quản lý kho
+storage.item.single={COUNT} - 1 Vật phẩm
+storage.item.plural={COUNT} - {TOTAL} Vật phẩm
+storage.delete.title=Xóa vĩnh viễn {ITEM}?
+storage.delete.content=Bạn có chắc muốn xóa {ITEM}? Nó sẽ mất mãi mãi!
+storage.delete.confirm=Xóa
+storage.delete.cancel=Hủy
+storage.error.readonly=Kho chỉ có quyền đọc.
+
+# ==========================================================
+# UI & MENU
+# ==========================================================
+menu.title=Milky Way Explorer
+menu.play=Chơi
+menu.settings=Cài đặt
+menu.quit=Thoát
+menu.back=Quay lại
+menu.ok=Ok
+menu.apply=Áp dụng
+menu.btn.default = Tải mặc định
+menu.btn.discard = Hủy thay đổi
+menu.btn.save = Lưu thay đổi
+menu.unassigned=Chưa gán
+menu.language=Ngôn ngữ: {LANG}
+menu.default.player=Người chơi
+menu.adventure=Phiêu lưu
+menu.server=Máy chủ
+menu.client=Máy khách
+menu.plugins=Tiện ích mở rộng
+menu.connect=Kết nối với máy chủ
+menu.playername=Tên người chơi
+menu.server.name=Tên máy chủ
+menu.server.adr=Địa chỉ máy chủ
+menu.server.port=Cổng máy chủ
+menu.server.pass=Mật khẩu máy chủ
+menu.server.save=Lưu máy chủ
+menu.server.connect=Kết nối
+menu.settings.gameplay=Lối chơi
+menu.settings.Graphics=Đồ họa
+menu.settings.Controls=Điều khiển
+menu.settings.Audio=Âm thanh
+menu.settings.fullScreen=Toàn màn hình
+menu.settings.System_Keys=Phím hệ thống
+menu.settings.OpenMenu=Mở thực đơn
+menu.settings.ToggleHud=Bật/Tắt HUD
+menu.settings.Screenshot=Chụp ảnh màn hình
+menu.settings.ToggleDebug=Thực đơn gỡ lỗi
+menu.settings.TogglePerspective=Đổi góc nhìn
+menu.settings.ToggleFullscreen=Bật/Tắt toàn màn hình
+menu.settings.Movement=Di chuyển
+menu.settings.MoveForward=Đi tới
+menu.settings.MoveBackward=Đi lùi
+menu.settings.MoveLeft=Sang trái
+menu.settings.MoveRight=Sang phải
+menu.settings.Jump=Nhảy
+menu.settings.Sneak=Ngồi / Xuống
+menu.settings.Sprint=Chạy nhanh
+menu.settings.Combat_Interaction=Chiến đấu & Tương tác
+menu.settings.Attack=Tấn công / Đào
+menu.settings.UseItem=Sử dụng / Đặt
+menu.settings.PickBlock=Chọn khối
+menu.settings.Use=Tương tác / Túi đồ
+menu.settings.DropItem=Thả vật phẩm
+menu.settings.Hotbar=Thanh công cụ nhanh
+menu.settings.HotbarSlot1=Ô phím nhanh 1
+menu.settings.HotbarSlot2=Ô phím nhanh 2
+menu.settings.HotbarSlot3=Ô phím nhanh 3
+menu.settings.HotbarSlot4=Ô phím nhanh 4
+menu.settings.HotbarSlot5=Ô phím nhanh 5
+menu.settings.HotbarSlot6=Ô phím nhanh 6
+menu.settings.HotbarSlot7=Ô phím nhanh 7
+menu.settings.HotbarSlot8=Ô phím nhanh 8
+menu.settings.HotbarSlot9=Ô phím nhanh 9
+menu.settings.ScrollHotbar=Cuộn thanh công cụ
+menu.settings.Chat_Multiplayer=Trò chuyện & Nhiều người chơi
+menu.settings.OpenChat=Mở trò chuyện
+menu.settings.OpenCommand=Bảng điều khiển lệnh
+menu.settings.PlayerList=Hiện danh sách người chơi
+menu.settings.Advancements=Tiến trình
+menu.settings.Mouse_Configuration=Cấu hình chuột
+menu.settings.MouseSensitivity=Độ nhạy chuột
+menu.settings.MouseAdsMultiplier=Độ nhạy ngắm bắn
+menu.settings.MouseInvertY=Đảo ngược trục Y
+menu.settings.MouseSmoothing=Làm mượt chuột
+menu.settings.label.commands = Các lệnh
+menu.settings.label.keyboard = Bàn phím / Chuột
+menu.settings.label.gamepad = Tay cầm / Joystick
+menu.mixer.title = BỘ TRỘN ÂM THANH
+menu.mixer.master = Âm lượng tổng
+menu.mixer.music = Nhạc
+menu.mixer.sfx = Hiệu ứng âm thanh
+menu.mixer.ambient = Môi trường
+menu.mixer.ui = Giao diện
+menu.mixer.voice = Giọng nói
+menu.mixer.mute = TẮT TIẾNG
+menu.mixer.unmute = BẬT TIẾNG
+settings.tab.graphics=Đồ họa
+settings.tab.audio=Âm thanh
+settings.tab.controls=Điều khiển
+settings.fullscreen=Toàn màn hình
+settings.vsync=V-Sync
+
+# ==========================================================
+# GAMEPLAY
+# ==========================================================
+game.death={PLAYER} đã chết.
+game.death.fall={PLAYER} ngã từ trên cao.
+game.death.pvp={KILLER} đã giết {VICTIM}.
+game.respawn=Đang hồi sinh...
+game.levelup={PLAYER} đã đạt cấp độ {LEVEL}!
+game.loading=Đang tải... {PERCENT}%
+game.loaded=Tải xong!
+
+# ==========================================================
+# ERRORS & SYSTEM
+# ==========================================================
+error.generic=Đã xảy ra lỗi: {ERROR}
+error.connection.lost=Mất kết nối với máy chủ.
+error.connection.timeout=Hết thời gian kết nối.
+error.file.notfound=Không tìm thấy tệp: {FILE}
+error.memory.low=Cảnh báo: Bộ nhớ khả dụng thấp ({RAM}MB).
+error.file.write=Không thể ghi tệp.
+error.server.notconfig=Máy chủ chưa được cấu hình.
+error.server.notconfig2=Vui lòng kiểm tra 'Config/serverConfig.cfg' và đặt 'serverConfigured' thành true.
+error.empty.port=Số cổng trống.
+error.invalid.port.chars=Ký tự không hợp lệ trong số cổng.
+error.port.range=Cổng phải nằm trong khoảng từ 1 đến 65535.
+error.port.notnumber=Số cổng không hợp lệ.
+error.empty.ip=Địa chỉ IP trống.

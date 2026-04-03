@@ -1,0 +1,233 @@
+# ==========================================================
+# GENERAL SERVER
+# ==========================================================
+server.starting=Uruchamianie serwera...
+server.started=Serwer uruchomiony pomyślnie na porcie {PORT}.
+server.stopping=Zażądano zamknięcia serwera.
+server.shutdown=Serwer zostanie wyłączony za {SECONDS} sek...
+server.stopped=Serwer zatrzymany.
+server.loading.file=Serwer ładuje plik {FILE}...
+server.file.notexist=Plik {FILE} nie istnieje, generowanie nowego pliku...
+server.file.isloaded=Plik {FILE} został załadowany.
+server.isready=Serwer jest gotowy...
+server.shutdown.requested=Zażądano wyłączenia serwera...
+server.backup.start=Tworzenie kopii zapasowej...
+server.backup.done=Kopia zapasowa ukończona.
+server.threads.stopping=Zatrzymywanie bieżących wątków...
+server.threads.stopped=Wątki zatrzymane pomyślnie.
+server.shutdown.complete=Serwer pomyślnie wyłączony.
+server.menu.info=Info
+server.menu.teams=Zespoły
+server.menu.players=Gracze
+server.menu.cmds=Komendy
+server.menu.config=Konfiguracja
+server.info.players=Gracze
+server.info.cpu=CPU
+server.info.ram=RAM
+server.info.ip=IP
+server.info.port=PORT
+server.info.uptime=Czas pracy
+server.menu.log=LOGI SERWERA
+
+# Network
+server.network.init=Inicjalizacja sieci...
+server.network.ready=Sieć gotowa. Oczekiwanie na połączenia...
+server.network.error=Błąd sieci: {ERROR}
+server.player.map.request={PLAYER} prosi o mapę: {PACKET}
+server.player.cmd.request={PLAYER} żąda komendy: {PACKET}
+server.packet.wrong=Błędny pakiet od gracza: {PLAYER}
+server.packet.value=Wartość pakietu: {PACKET}
+server.network.listening=Serwer nasłuchuje klientów.
+server.network.error_socket=Nie można utworzyć gniazda (socket).
+server.network.error_bind=Bindowanie niemożliwe na porcie {PORT}.
+server.network.start_threads=Uruchamianie wątków sieciowych...
+server.connection.accepted=Połączenie zaakceptowane dla: {PLAYER}
+
+# Language & Config
+server.lang.loaded=Język został załadowany.
+server.lang.default=Wybrano język domyślny, pobierz plik językowy.
+
+# Chat System Internal
+server.chat.dict_empty=Słownik jest pusty.
+server.chat.dict_loaded=Słownik załadowany z {COUNT} słowami.
+server.chat.filter_built=Filtr słów zbudowany.
+server.chat.loading_words=Ładowanie zakazanych słów...
+server.chat.ready=System czatu gotowy.
+server.chat.banned_words_notfound=Plik zakazanych słów nie istnieje, generowanie nowego...
+
+# ==========================================================
+# PLAYER CONNECTION
+# ==========================================================
+player.join={PLAYER} dołączył do serwera.
+player.leave={PLAYER} opuścił serwer.
+player.kick={PLAYER} został wyrzucony z serwera. Powód: {REASON}.
+player.ban={PLAYER} został zbanowany. Powód: {REASON}.
+player.welcome=Witaj {PLAYER}! Wpisz /help, aby zobaczyć komendy.
+player.auth.success=Uwierzytelnianie powiodło się.
+player.auth.failed=Błąd uwierzytelniania: Nieprawidłowe hasło.
+
+# ==========================================================
+# CHAT SYSTEM
+# ==========================================================
+chat.public=[Globalny] {PLAYER}: {MESSAGE}
+chat.private.to=[Do {PLAYER}] {MESSAGE}
+chat.private.from=[Od {PLAYER}] {MESSAGE}
+chat.team=[Zespół] {PLAYER}: {MESSAGE}
+chat.muted=Nie możesz wysyłać wiadomości: Jesteś wyciszony.
+chat.filtered=Wiadomość zablokowana: Nieodpowiednia treść.
+chat.noplayer=Gracz {PLAYER} nie został znaleziony.
+chat.nopermission=Nie masz uprawnień, aby to zrobić.
+chat.private.sent=[Prywatny] {PLAYER}
+chat.player.notfound=Gracz {PLAYER} nie znaleziony.
+
+# ==========================================================
+# SERVER COMMANDS
+# ==========================================================
+command.unknown=Nieznana komenda. Wpisz /help.
+command.stop=Zatrzymywanie serwera...
+command.list.header=Gracze online ({COUNT}/{MAX}):
+command.list.line={PLAYER} (Ping: {PING}ms)
+command.help.title=--- Pomoc Strona {PAGE}/{MAX} ---
+command.help.line=/{CMD} - {DESC}
+command.echo=Komenda: {CMD}
+command.notfound=Komenda nie znaleziona: {CMD}
+
+# ==========================================================
+# STORAGE & INVENTORY
+# ==========================================================
+inventory.full=Twój ekwipunek jest pełny.
+inventory.drop=Wyrzucono {COUNT}x {ITEM}.
+inventory.pickup=Podniesiono {COUNT}x {ITEM}.
+inventory.use=Użyto {ITEM}.
+inventory.craft=Wytworzono {COUNT}x {ITEM}.
+
+# Storage Manager
+storage.title=Menedżer magazynu
+storage.item.single={COUNT} - 1 Przedmiot
+storage.item.plural={COUNT} - {TOTAL} Przedmioty
+storage.delete.title=Usunąć {ITEM} na stałe?
+storage.delete.content=Czy na pewno chcesz usunąć {ITEM}? Zostanie utracony na zawsze!
+storage.delete.confirm=Usuń
+storage.delete.cancel=Anuluj
+storage.error.readonly=Magazyn jest tylko do odczytu.
+
+# ==========================================================
+# UI & MENU
+# ==========================================================
+menu.title=Milky Way Explorer
+menu.play=Graj
+menu.settings=Ustawienia
+menu.quit=Wyjdź
+menu.back=Wstecz
+menu.ok=Ok
+menu.apply=Zastosuj
+menu.btn.default = Domyślne
+menu.btn.discard = Odrzuć zmiany
+menu.btn.save = Zapisz zmiany
+menu.unassigned=Nieprzypisane
+menu.language=Język: {LANG}
+menu.default.player=Gracz
+menu.adventure=Przygoda
+menu.server=Serwer
+menu.client=Klient
+menu.plugins=Pluginy
+menu.connect=Połącz z serwerem
+menu.playername=Nazwa gracza
+menu.server.name=Nazwa serwera
+menu.server.adr=Adres serwera
+menu.server.port=Port serwera
+menu.server.pass=Hasło serwera
+menu.server.save=Zapisz serwer
+menu.server.connect=Połącz
+menu.settings.gameplay=Rozgrywka
+menu.settings.Graphics=Grafika
+menu.settings.Controls=Sterowanie
+menu.settings.Audio=Dźwięk
+menu.settings.fullScreen=Pełny ekran
+menu.settings.System_Keys=Klawisze systemowe
+menu.settings.OpenMenu=Otwórz menu
+menu.settings.ToggleHud=Przełącz HUD
+menu.settings.Screenshot=Zrób zrzut ekranu
+menu.settings.ToggleDebug=Menu Debugowania
+menu.settings.TogglePerspective=Zmień widok
+menu.settings.ToggleFullscreen=Przełącz pełny ekran
+menu.settings.Movement=Ruch
+menu.settings.MoveForward=Do przodu
+menu.settings.MoveBackward=Do tyłu
+menu.settings.MoveLeft=W lewo
+menu.settings.MoveRight=W prawo
+menu.settings.Jump=Skok
+menu.settings.Sneak=Skradanie / W dół
+menu.settings.Sprint=Sprint
+menu.settings.Combat_Interaction=Walka i interakcja
+menu.settings.Attack=Atak / Wydobycie
+menu.settings.UseItem=Użyj / Postaw
+menu.settings.PickBlock=Wybierz blok
+menu.settings.Use=Interakcja / Ekwipunek
+menu.settings.DropItem=Wyrzuć przedmiot
+menu.settings.Hotbar=Pasek skrótów
+menu.settings.HotbarSlot1=Gniazdo 1
+menu.settings.HotbarSlot2=Gniazdo 2
+menu.settings.HotbarSlot3=Gniazdo 3
+menu.settings.HotbarSlot4=Gniazdo 4
+menu.settings.HotbarSlot5=Gniazdo 5
+menu.settings.HotbarSlot6=Gniazdo 6
+menu.settings.HotbarSlot7=Gniazdo 7
+menu.settings.HotbarSlot8=Gniazdo 8
+menu.settings.HotbarSlot9=Gniazdo 9
+menu.settings.ScrollHotbar=Przewijaj pasek
+menu.settings.Chat_Multiplayer=Czat i tryb wieloosobowy
+menu.settings.OpenChat=Otwórz czat
+menu.settings.OpenCommand=Konsola komend
+menu.settings.PlayerList=Pokaż graczy
+menu.settings.Advancements=Osiągnięcia
+menu.settings.Mouse_Configuration=Konfiguracja myszy
+menu.settings.MouseSensitivity=Czułość myszy
+menu.settings.MouseAdsMultiplier=Czułość przy celowaniu (ADS)
+menu.settings.MouseInvertY=Odwróć oś Y
+menu.settings.MouseSmoothing=Wygładzanie myszy
+menu.settings.label.commands = Komendy
+menu.settings.label.keyboard = Klawiatura / Mysz
+menu.settings.label.gamepad = Pad / Joystick
+menu.mixer.title = MIKSER AUDIO
+menu.mixer.master = Głośność główna
+menu.mixer.music = Muzyka
+menu.mixer.sfx = Efekty dźwiękowe
+menu.mixer.ambient = Otoczenie
+menu.mixer.ui = Interfejs
+menu.mixer.voice = Głos
+menu.mixer.mute = WYCISZ
+menu.mixer.unmute = WYŁĄCZ WYCISZENIE
+settings.tab.graphics=Grafika
+settings.tab.audio=Dźwięk
+settings.tab.controls=Sterowanie
+settings.fullscreen=Pełny ekran
+settings.vsync=V-Sync
+
+# ==========================================================
+# GAMEPLAY
+# ==========================================================
+game.death={PLAYER} zginął.
+game.death.fall={PLAYER} spadł z wysokości.
+game.death.pvp={KILLER} zabił {VICTIM}.
+game.respawn=Odradzanie...
+game.levelup={PLAYER} osiągnął poziom {LEVEL}!
+game.loading=Ładowanie... {PERCENT}%
+game.loaded=Ładowanie ukończone!
+
+# ==========================================================
+# ERRORS & SYSTEM
+# ==========================================================
+error.generic=Wystąpił błąd: {ERROR}
+error.connection.lost=Utracono połączenie z serwerem.
+error.connection.timeout=Upłynął limit czasu połączenia.
+error.file.notfound=Nie znaleziono pliku: {FILE}
+error.memory.low=Ostrzeżenie: Mało pamięci RAM ({RAM}MB).
+error.file.write=Nie można zapisać pliku.
+error.server.notconfig=Serwer nie jest skonfigurowany.
+error.server.notconfig2=Sprawdź 'Config/serverConfig.cfg' i ustaw 'serverConfigured' na true.
+error.empty.port=Numer portu jest pusty.
+error.invalid.port.chars=Nieprawidłowy znak w numerze portu.
+error.port.range=Port musi być między 1 a 65535.
+error.port.notnumber=Numer portu nie jest prawidłowy.
+error.empty.ip=Adres IP jest pusty.

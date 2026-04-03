@@ -1,0 +1,234 @@
+# ==========================================================
+# ΓΕΝΙΚΟΣ ΔΙΑΚΟΜΙΣΤΗΣ (GENERAL SERVER)
+# ==========================================================
+server.starting=Εκκίνηση διακομιστή...
+server.started=Ο διακομιστής ξεκίνησε με επιτυχία στη θύρα {PORT}.
+server.stopping=Ζητήθηκε τερματισμός του διακομιστή.
+server.shutdown=Ο διακομιστής θα κλείσει σε {SECONDS} δευτερόλεπτα...
+server.stopped=Ο διακομιστής σταμάτησε.
+server.loading.file=Ο διακομιστής φορτώνει το αρχείο {FILE}...
+server.file.notexist=Το αρχείο {FILE} δεν υπάρχει, δημιουργία νέου αρχείου...
+server.file.isloaded=Το αρχείο {FILE} φορτώθηκε
+server.isready=Ο διακομιστής είναι έτοιμος...
+server.shutdown.requested=Ζητήθηκε απενεργοποίηση του διακομιστή...
+server.backup.start=Δημιουργία αντιγράφου ασφαλείας σε εξέλιξη...
+server.backup.done=Το αντίγραφο ασφαλείας ολοκληρώθηκε
+server.threads.stopping=Διακοπή τρεχόντων νημάτων...
+server.threads.stopped=Τα νήματα σταμάτησαν OK
+server.shutdown.complete=Ο διακομιστής απενεργοποιήθηκε με επιτυχία.
+server.menu.info=Πληροφορίες
+server.menu.teams=Ομάδες
+server.menu.players=Παίκτες
+server.menu.cmds=Εντολές
+server.menu.config=Ρυθμίσεις
+server.info.players=Παίκτες
+server.info.cpu=Επεξεργαστής (CPU)
+server.info.ram=Μνήμη (RAM)
+server.info.ip=Διεύθυνση IP
+server.info.port=Θύρα (PORT)
+server.info.uptime=Χρόνος λειτουργίας
+server.menu.log=ΑΡΧΕΙΑ ΚΑΤΑΓΡΑΦΗΣ
+
+# Δίκτυο (Network)
+server.network.init=Αρχικοποίηση δικτύου...
+server.network.ready=Το δίκτυο είναι έτοιμο. Αναμονή για συνδέσεις...
+server.network.error=Σφάλμα δικτύου: {ERROR}
+server.player.map.request=Ο παίκτης {PLAYER} ζητά τον χάρτη: {PACKET}
+server.player.cmd.request=Ο παίκτης {PLAYER} ζητά την εντολή: {PACKET}
+server.packet.wrong=Λανθασμένο πακέτο από τον παίκτη: {PLAYER}
+server.packet.value=Τιμή πακέτου (PacketValue): {PACKET}
+server.network.listening=Ο διακομιστής ακούει τώρα για πελάτες.
+server.network.error_socket=Αδυναμία δημιουργίας του socket.
+server.network.error_bind=Η δέσμευση δεν είναι δυνατή στη θύρα {PORT}
+server.network.start_threads=Έναρξη νημάτων δικτύου...
+server.connection.accepted=Η σύνδεση έγινε αποδεκτή για: {PLAYER}
+
+# Γλώσσα & Ρυθμίσεις
+server.lang.loaded=Η γλώσσα σας έχει φορτωθεί.
+server.lang.default=Επιλέχθηκε η προεπιλεγμένη γλώσσα, παρακαλώ κατεβάστε το αρχείο γλώσσας σας.
+
+# Chat System Internal
+server.chat.dict_empty=Το λεξικό είναι άδειο, δεν βρέθηκαν λέξεις.
+server.chat.dict_loaded=Το λεξικό φορτώθηκε με {COUNT} λέξεις.
+server.chat.filter_built=Το φίλτρο λέξεων κατασκευάστηκε.
+server.chat.loading_words=Φόρτωση αποκλεισμένων λέξεων για το chat...
+server.chat.ready=Το σύστημα chat είναι έτοιμο.
+server.chat.banned_words_notfound=Το αρχείο αποκλεισμένων λέξεων δεν υπάρχει, δημιουργία νέου αρχείου...
+
+# ==========================================================
+# ΣΥΝΔΕΣΗ ΠΑΙΚΤΗ (PLAYER CONNECTION)
+# ==========================================================
+player.join=Ο παίκτης {PLAYER} συνδέθηκε στον διακομιστή.
+player.leave=Ο παίκτης {PLAYER} αποσυνδέθηκε από τον διακομιστή.
+player.kick=Ο παίκτης {PLAYER} αποβλήθηκε (kicked). Αιτία: {REASON}.
+player.ban=Ο παίκτης {PLAYER} αποκλείστηκε (banned). Αιτία: {REASON}.
+player.welcome=Καλώς ήρθες {PLAYER}! Πληκτρολόγησε /help για εντολές.
+player.auth.success=Η ταυτοποίηση ήταν επιτυχής.
+player.auth.failed=Η ταυτοποίηση απέτυχε: Μη έγκυρος κωδικός πρόσβασης.
+
+# ==========================================================
+# ΣΥΣΤΗΜΑ CHAT (CHAT SYSTEM)
+# ==========================================================
+chat.public=[Παγκόσμιο] {PLAYER}: {MESSAGE}
+chat.private.to=[Προς {PLAYER}] {MESSAGE}
+chat.private.from=[Από {PLAYER}] {MESSAGE}
+chat.team=[Ομάδα] {PLAYER}: {MESSAGE}
+chat.muted=Δεν μπορείτε να στείλετε μηνύματα: Είστε σε σίγαση.
+chat.filtered=Το μήνυμά σας μπλοκαρίστηκε: Ακατάλληλο περιεχόμενο.
+chat.noplayer=Ο παίκτης {PLAYER} δεν βρέθηκε ή είναι εκτός σύνδεσης.
+chat.nopermission=Δεν έχετε άδεια να το κάνετε αυτό.
+chat.private.sent=[Ιδιωτικό] {PLAYER}
+chat.player.notfound=Ο παίκτης {PLAYER} δεν βρέθηκε.
+
+# ==========================================================
+# ΕΝΤΟΛΕΣ ΔΙΑΚΟΜΙΣΤΗ
+# ==========================================================
+command.unknown=Άγνωστη εντολή. Πληκτρολογήστε /help για λίστα.
+command.stop=Διακοπή διακομιστή...
+command.list.header=Συνδεδεμένοι Παίκτες ({COUNT}/{MAX}):
+command.list.line={PLAYER} (Ping: {PING}ms)
+command.help.title=--- Σελίδα Βοήθειας {PAGE}/{MAX} ---
+command.help.line=/{CMD} - {DESC}
+command.echo=Εντολή: {CMD}
+command.notfound=Η εντολή δεν βρέθηκε: {CMD}
+
+# ==========================================================
+# ΑΠΟΘΗΚΕΥΣΗ & ΑΠΟΘΕΜΑ (STORAGE & INVENTORY)
+# ==========================================================
+inventory.full=Το απόθεμά σας είναι γεμάτο.
+inventory.drop=Πέταξες {COUNT}x {ITEM}.
+inventory.pickup=Μάζεψες {COUNT}x {ITEM}.
+inventory.use=Χρησιμοποίησες {ITEM}.
+inventory.craft=Κατασκεύασες {COUNT}x {ITEM}.
+
+# Διαχειριστής Αποθήκευσης
+storage.title=Διαχειριστής Αποθήκευσης
+storage.item.single={COUNT} - 1 Αντικείμενο
+storage.item.plural={COUNT} - {TOTAL} Αντικείμενα
+storage.delete.title=Οριστική διαγραφή του {ITEM};
+storage.delete.content=Είστε σίγουροι ότι θέλετε να διαγράψετε το {ITEM}; Θα χαθεί για πάντα!
+storage.delete.confirm=Διαγραφή
+storage.delete.cancel=Ακύρωση
+storage.error.readonly=Η αποθήκευση είναι μόνο για ανάγνωση.
+
+# ==========================================================
+# UI & ΜΕΝΟΥ
+# ==========================================================
+menu.title=Εξερευνητής του Γαλαξία
+menu.play=Παίξε
+menu.settings=Ρυθμίσεις
+menu.quit=Έξοδος
+menu.back=Πίσω
+menu.ok=ΟΚ
+menu.apply=Εφαρμογή
+menu.btn.default = Επαναφορά Προεπιλογών
+menu.btn.discard = Απόρριψη Αλλαγών
+menu.btn.save = Αποθήκευση Αλλαγών
+menu.unassigned = Μη ανατεθειμένο
+menu.language=Γλώσσα: {LANG}
+menu.default.player=Παίκτης
+menu.adventure=Περιπέτεια
+menu.server=Διακομιστής
+menu.client=Πελάτης
+menu.plugins=Πρόσθετα (Plugins)
+menu.connect=Σύνδεση σε διακομιστή
+menu.playername=Όνομα Παίκτη
+menu.server.name=Όνομα Διακομιστή
+menu.server.adr=Διεύθυνση Διακομιστή
+menu.server.port=Θύρα Διακομιστή
+menu.server.pass=Κωδικός Διακομιστή
+menu.server.save=Αποθήκευση Διακομιστή
+menu.server.connect=Σύνδεση
+menu.settings.gameplay=Παιχνίδι
+menu.settings.Graphics=Γραφικά
+menu.settings.Controls=Χειρισμός
+menu.settings.Audio=Ήχος
+menu.settings.fullScreen=Πλήρης Οθόνη
+menu.settings.System_Keys=Πλήκτρα Συστήματος
+menu.settings.OpenMenu=Άνοιγμα Μενού
+menu.settings.ToggleHud=Εναλλαγή HUD
+menu.settings.Screenshot=Λήψη Στιγμιοτύπου
+menu.settings.ToggleDebug=Μενού Αποσφαλμάτωσης
+menu.settings.TogglePerspective=Αλλαγή Κάμερας
+menu.settings.ToggleFullscreen=Εναλλαγή Πλήρους Οθόνης
+menu.settings.Movement=Κίνηση
+menu.settings.MoveForward=Κίνηση Εμπρός
+menu.settings.MoveBackward=Κίνηση Πίσω
+menu.settings.MoveLeft=Βήμα Αριστερά
+menu.settings.MoveRight=Βήμα Δεξιά
+menu.settings.Jump=Άλμα
+menu.settings.Sneak=Σύρσιμο / Κάτω
+menu.settings.Sprint=Τρέξιμο
+menu.settings.Combat_Interaction=Μάχη & Αλληλεπίδραση
+menu.settings.Attack=Επίθεση / Εξόρυξη
+menu.settings.UseItem=Χρήση / Τοποθέτηση
+menu.settings.PickBlock=Επιλογή Κύβου
+menu.settings.Use=Αλληλεπίδραση / Απόθεμα
+menu.settings.DropItem=Ρίψη Αντικειμένου
+menu.settings.Hotbar=Γραμμή Εργαλείων
+menu.settings.HotbarSlot1=Θέση 1
+menu.settings.HotbarSlot2=Θέση 2
+menu.settings.HotbarSlot3=Θέση 3
+menu.settings.HotbarSlot4=Θέση 4
+menu.settings.HotbarSlot5=Θέση 5
+menu.settings.HotbarSlot6=Θέση 6
+menu.settings.HotbarSlot7=Θέση 7
+menu.settings.HotbarSlot8=Θέση 8
+menu.settings.HotbarSlot9=Θέση 9
+menu.settings.ScrollHotbar=Κύλιση Γραμμής Εργαλείων
+menu.settings.Chat_Multiplayer=Chat & Πολυπαίκτες
+menu.settings.OpenChat=Άνοιγμα Chat
+menu.settings.OpenCommand=Κονσόλα Εντολών
+menu.settings.PlayerList=Εμφάνιση Παικτών
+menu.settings.Advancements=Επιτεύγματα
+menu.settings.Mouse_Configuration=Ρυθμίσεις Ποντικιού
+menu.settings.MouseSensitivity=Ευαισθησία Ποντικιού
+menu.settings.MouseAdsMultiplier=Ευαισθησία Σκόπευσης (ADS)
+menu.settings.MouseInvertY=Αντιστροφή Άξονα Y
+menu.settings.MouseSmoothing=Εξομάλυνση Ποντικιού
+menu.settings.label.commands = Εντολές
+menu.settings.label.keyboard = Πληκτρολόγιο / Ποντίκι
+menu.settings.label.gamepad = Χειριστήριο
+menu.mixer.title = ΜΕΙΚΤΗΣ ΗΧΟΥ
+menu.mixer.master = Κύρια Ένταση
+menu.mixer.music = Μουσική
+menu.mixer.sfx = Εφέ Ήχου
+menu.mixer.ambient = Περιβάλλον
+menu.mixer.ui = Διεπαφή
+menu.mixer.voice = Φωνή
+menu.mixer.mute = ΣΙΓΑΣΗ
+menu.mixer.unmute = ΚΑΤΑΡΓΗΣΗ ΣΙΓΑΣΗΣ
+# Καρτέλες Ρυθμίσεων
+settings.tab.graphics=Γραφικά
+settings.tab.audio=Ήχος
+settings.tab.controls=Χειρισμός
+settings.fullscreen=Πλήρης Οθόνη
+settings.vsync=Κάθετος Συγχρονισμός (VSync)
+
+# ==========================================================
+# ΠΑΙΧΝΙΔΙ (GAMEPLAY)
+# ==========================================================
+game.death=Ο παίκτης {PLAYER} πέθανε.
+game.death.fall=Ο παίκτης {PLAYER} έπεσε από ψηλά.
+game.death.pvp=Ο {KILLER} σκότωσε τον {VICTIM}.
+game.respawn=Αναγέννηση...
+game.levelup=Ο παίκτης {PLAYER} έφτασε στο Επίπεδο {LEVEL}!
+game.loading=Φόρτωση... {PERCENT}%
+game.loaded=Η φόρτωση ολοκληρώθηκε!
+
+# ==========================================================
+# ΣΦΑΛΜΑΤΑ & ΣΥΣΤΗΜΑ
+# ==========================================================
+error.generic=Παρουσιάστηκε σφάλμα: {ERROR}
+error.connection.lost=Η σύνδεση με τον διακομιστή χάθηκε.
+error.connection.timeout=Λήξη χρόνου σύνδεσης.
+error.file.notfound=Το αρχείο δεν βρέθηκε: {FILE}
+error.memory.low=Προειδοποίηση: Χαμηλή διαθέσιμη μνήμη ({RAM}MB).
+error.file.write=Αδυναμία εγγραφής αρχείου.
+error.server.notconfig=Ο διακομιστής δεν έχει ρυθμιστεί.
+error.server.notconfig2=Παρακαλώ ελέγξτε το 'Config/serverConfig.cfg' και ορίστε το 'serverConfigured = false' σε true.
+error.empty.port=Ο αριθμός θύρας είναι κενός
+error.invalid.port.chars=Μη έγκυρος χαρακτήρας στον αριθμό θύρας
+error.port.range=Η θύρα πρέπει να είναι μεταξύ 1 και 65535
+error.port.notnumber=Ο αριθμός θύρας δεν είναι έγκυρος.
+error.empty.ip=Η διεύθυνση IP είναι κενή
