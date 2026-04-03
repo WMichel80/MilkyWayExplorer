@@ -38,18 +38,16 @@ Le jeu est conçu pour être entièrement moddable et accessible aux créateurs 
 
 Cette version est une version technique destinée à valider les infrastructures du jeu. Elle ne contient pas encore le gameplay final, mais permet de tester les fondations du projet.
 
-Fichiers disponibles :
+**Fichiers disponibles :**
+1. Télécharger le `.zip` de la version Alpha et décompresser.
+2. `MilkyWayExplorer` (Linux)
+3. `MilkyWayExplorer.exe` (Windows)
 
-    Télécharger le .zip de la version Alpha et décompresser.
-    MilkyWayExplorer (Linux)
-    MilkyWayExplorer.exe (Windows)
-
-⚠️ Comment tester le Chat ?
-
+### ⚠️ Comment tester le Chat ?
 Le système de chat est opérationnel, mais il nécessite une manipulation spécifique pour être testé en local :
-
-    Lancez le jeu une première fois en mode Serveur. : MilkyWayExplorer --mode Serveur (Linux) // MilkyWayExplorer.exe --mode Serveur (Windows)
-    Lancez le jeu une deuxième fois en mode Client. Double clique sur l'executable.
+1. Lancez le jeu une première fois en mode **Serveur** : 
+   `./MilkyWayExplorer --mode Serveur` (Linux) ou `MilkyWayExplorer.exe --mode Serveur` (Windows)
+2. Lancez le jeu une deuxième fois en mode **Client** (Double-clic sur l'exécutable).
 
 🚧 Statut du projet
 
