@@ -39,9 +39,7 @@ Le jeu est conçu pour être entièrement moddable et accessible aux créateurs 
 Cette version est une version technique destinée à valider les infrastructures du jeu. Elle ne contient pas encore le gameplay final, mais permet de tester les fondations du projet.
 Avancement du projet :
 
-################################################################################
-##                       PROJET MILKYWAY - MODULE TODO LIST                   ##
-################################################################################
+                       PROJET MILKYWAY - MODULE TODO LIST                   
 MODULES                                     | ACHEVÉ % | INTÉGRÉ % | STATUT
 --------------------------------------------|----------|-----------|------------
 Launcher and UpdateManager                  |    50%   |    50%    | En cours
@@ -86,7 +84,6 @@ RandomRewardsSys                            |     0%   |     0%    | ToDo
 DungeonManager                              |     0%   |     0%    | ToDo
 JobManager                                  |     0%   |     0%    | ToDo
 EventsSystem                                |     0%   |     0%    | ToDo
-
 --------------------------------------------------------------------------------
 
 Fichiers disponibles :
